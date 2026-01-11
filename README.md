@@ -11,7 +11,7 @@ This project is the deployment of a Windows Server Domain Controller (Active Dir
 
 - 1 x Windows Server (AD Domain Controller)
 - 1 x Windows 8 Client PC (Account Department)
-- 1 x Windows 7 Client PC (Legacy Software)
+- 1 x Windows 10 Client PC (Legacy Software)
 
 ---
 
@@ -30,17 +30,17 @@ This project is the deployment of a Windows Server Domain Controller (Active Dir
 ```
 Internet
    ↓
-Router (Gateway: 10.0.5.1)
+Router (Gateway: 192.168.1.1)
    ↓
 Switch
  ┌──────┬─────────────┬──────────────┐
  │      │             │              │
-Server  PC1 (Win 8)   PC2 (Win XP)
+Server  PC1 (Win 8)   PC2 (Win PRO)
 ```
 
 | Device        | IP Address      | Role                        |
 |---------------|----------------|-----------------------------|
-| Windows Server| 10.0.5.5  | AD Domain Controller (DC)   |
+| Windows Server| 192.168.1.243  | AD Domain Controller (DC)   |
 | Windows 8 PC  | DHCP    | Client (Accounts)           |
 | Windows XP PC | DHCP    | Legacy Client               |
 
@@ -48,9 +48,9 @@ Server  PC1 (Win 8)   PC2 (Win XP)
 
 ## Domain Configuration
 
-- **Domain Name**: `cybertech.local`
-- **Server Name**: `CYBERTECH`
-- **Static IP**: `10.0.5.5`
+- **Domain Name**: `fikayotech.ai`
+- **Server Name**: `FIKAYOTECH`
+- **Static IP**: `192.168.1.243`
 - **AD Roles Installed**: AD DS, DNS (DHCP)
 
 ---
@@ -62,11 +62,31 @@ Created using **Active Directory Users and Computers**:
 ```
 CyberTech.local
 ├── OU: IT Department
-│   └── Users: Alex.IT
+│   └── Users: Fiyin.IT
+    
+
+├── OU: Production Department
+│   └── Users: Blessing.Production
+    
+
+├── OU: Purchasing Department
+│   └── Users: Adeola.Purchasing
+
+├── OU: HR Department
+│   └── Users: Esther.HR
+    
+
+├── OU: Consultation Department
+│   └── Users: Ade.Consultation
+    
+
+├── OU: Finance Department
+│   └── Users: Oluyemi.Finance
     └── Users: Charles.IT
+    
 
 ├── OU: Sales
-│   └── Users:
+│   └── Users: Olusola.Sales
 ```
 
 ---
@@ -75,13 +95,13 @@ CyberTech.local
 
 Created and linked using **Group Policy Management Console (gpmc.msc)**:
 
-- **GPO Name**: `DisableRemovableDrives`
+- **GPO Name**: `DisableShutdownAction`
 - **Linked to**: OU: IT Department
 - **Policy Configured**:
-  - `Computer Configuration` > `Administrative Templates` > `System` > `Removable Storage Access`
-  - Set **"All Removable Storage classes: Deny all access"** to **Enabled**
+  - `Computer Configuration` > `Policies` > `Administrative Templates` > `Start Menu Taskbar` > `Remove and Prevent access to the Shut Down, Restart, Sleep, and Hibernate commands`
+  - Set **"Remove and Prevent access to the Shut Down, Restart, Sleep, and Hibernate commands"** to **Enabled**
 
-Result: USB and external drives are disabled for all users in the **Accounts OU**.
+Result: The Shutdown, restart, sleep and hibernate commands are removed from the Start MENU **IT OU**.
 
 ---
 
@@ -90,7 +110,7 @@ Result: USB and external drives are disabled for all users in the **Accounts OU*
 - AD Domain Structure
 - GPO Editor Screenshot
 - PC joined to domain
-- Result of denied USB access
+- Result of Remove and Prevent access to the Shut Down, Restart, Sleep, and Hibernate commands
 
 ---
 
@@ -105,5 +125,5 @@ Result: USB and external drives are disabled for all users in the **Accounts OU*
 
 ## Author
 
-**Aliu B. Sanusi**  
+**Adeyinka M. Adeyanju**  
 Cybersecurity Analyst  
