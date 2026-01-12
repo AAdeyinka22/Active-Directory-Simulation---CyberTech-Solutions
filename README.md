@@ -129,6 +129,7 @@ Result: The Shutdown, restart, sleep and hibernate commands are removed from the
 - [Linking Policy To Domain](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/Linking_policy_to_domain.jpg)
 - [Promote Server To Domain Controller](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/Promote_server_to_domain_controller.jpg)
 - [Select AD DS](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/Select_AD_DS.jpg)
+- [Select Active Directory Users and Computers](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/Select_active_directory_users_and_computers.jpg)
 - PC joined to domain
 - [Result of Remove and Prevent access to the Shut Down, Restart, Sleep, and Hibernate commands](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/power_button_disabled.jpg)
 
