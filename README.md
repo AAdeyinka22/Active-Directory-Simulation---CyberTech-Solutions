@@ -110,7 +110,7 @@ Result: The Shutdown, restart, sleep and hibernate commands are removed from the
 - AD Domain Structure
 - GPO Editor Screenshot
 - PC joined to domain
-- Result of Remove and Prevent access to the Shut Down, Restart, Sleep, and Hibernate commands
+- [Result of Remove and Prevent access to the Shut Down, Restart, Sleep, and Hibernate commands](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/power_button_disabled.jpg)
 
 ---
 
