@@ -122,6 +122,7 @@ Result: The Shutdown, restart, sleep and hibernate commands are removed from the
 - [Disable Shutdown Action Policy Creation](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/Disable_shutdown_action_policy.jpg)
 - [Domain Changed](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/Domain_change.jpg)
 - [Domain Name Completion](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/Domain_name_joined_successfully.jpg)
+- [Enable Remove Shutdown Access](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/Enable_to_remove_shutdown_restart_sleep%20function.jpg)
 - PC joined to domain
 - [Result of Remove and Prevent access to the Shut Down, Restart, Sleep, and Hibernate commands](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/power_button_disabled.jpg)
 
