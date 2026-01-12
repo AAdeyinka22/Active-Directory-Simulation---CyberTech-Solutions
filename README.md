@@ -126,6 +126,7 @@ Result: The Shutdown, restart, sleep and hibernate commands are removed from the
 - [Forest Name Creation](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/Forest_Name.jpg)
 - [Group Object Creation](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/Group_object_created.jpg)
 - [Group Management Policy](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/Group_policy_management.jpg)
+- [Linking Policy To Domain](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/Linking_policy_to_domain.jpg)
 - PC joined to domain
 - [Result of Remove and Prevent access to the Shut Down, Restart, Sleep, and Hibernate commands](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/power_button_disabled.jpg)
 
