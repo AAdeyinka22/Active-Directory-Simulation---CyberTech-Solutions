@@ -117,6 +117,7 @@ Result: The Shutdown, restart, sleep and hibernate commands are removed from the
 - [Checks Completed Before Installation](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/Checks_completed_before_installation.jpg)
 - [Computer Name Changed](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/Click_change_computer_name.jpg)
 - [Creation Of Users Under Active Directory](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/Creating_Users.jpg)
+- [Creation Of Groups Under Active Directory](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/Creating_groups.jpg)
 - PC joined to domain
 - [Result of Remove and Prevent access to the Shut Down, Restart, Sleep, and Hibernate commands](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/power_button_disabled.jpg)
 
