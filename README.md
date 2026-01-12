@@ -108,6 +108,7 @@ Result: The Shutdown, restart, sleep and hibernate commands are removed from the
 ## Screenshots
 
 - [AD Domain Structure](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/AD_DS_DNS_Installation.jpg)
+- [Add Features To Roles and Features](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/Add_Features.jpg)
 - GPO Editor Screenshot
 - PC joined to domain
 - [Result of Remove and Prevent access to the Shut Down, Restart, Sleep, and Hibernate commands](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/power_button_disabled.jpg)
