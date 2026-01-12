@@ -114,6 +114,7 @@ Result: The Shutdown, restart, sleep and hibernate commands are removed from the
 - [Assigning Object to IT Department](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/Assigning_Fiyin_to_IT_Dept.jpg)
 - [Assigning Server IP Address to Windows](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/Assigning_server_IP_address_to_my_windows.jpg)
 - [GPO Editor Screenshot](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/Assigning_shutdown_policy_to_a_user.jpg)
+- [Checks Completed Before Installation](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/Checks_completed_before_installation.jpg)
 - PC joined to domain
 - [Result of Remove and Prevent access to the Shut Down, Restart, Sleep, and Hibernate commands](https://github.com/AAdeyinka22/Active-Directory-Simulation---CyberTech-Solutions/blob/main/Screenshots/power_button_disabled.jpg)
 
