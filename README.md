@@ -1,13 +1,13 @@
 
 # Active Directory Simulation – CyberTech Solutions
 
-This project is the deployment of a Windows Server Domain Controller (Active Directory) for a company called **CyberTech Solutions**. It includes domain setup, client configuration, OU design, group policies, and access control in an enterprise environment.
+This project is the deployment of a Windows Server Domain Controller (Active Directory) for a company called **Fikayotech Solutions**. It includes domain setup, client configuration, OU design, group policies, and access control in an enterprise environment.
 
 ---
 
 ## Company Structure
 
-**CyberTech Solutions** is a small IT services firm with the following structure:
+**Fikayotech Solutions** is a small IT services firm with the following structure:
 
 - 1 x Windows Server (AD Domain Controller)
 - 1 x Windows 8 Client PC (Account Department)
